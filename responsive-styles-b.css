@@ -1,0 +1,30 @@
+#header {
+  background-color: #dbd9d9;
+  height: 100px;
+}
+#main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    color: white;
+    }
+.div1,
+.div2,
+.div3 {
+  width: 30%;
+  height: 30rem;
+  background-color: #40c75b;
+}
+.div1 {
+  width: 60%;
+  background-color: #09eb36;
+  order: 2;
+}
+.div3 {
+  order: 3;
+  background-color: yellow;
+}
+#footer {
+  background-color: #dbd9d9;
+  height: 100px;
+}
