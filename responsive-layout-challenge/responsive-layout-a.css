@@ -1,4 +1,3 @@
-
 header {
     width: 100%;
     background-color: #d1d2d4;
@@ -29,4 +28,36 @@ header {
     background-color: #d1d2d4;
     width: 100%;
     height: 8vh;
+  }
+
+  @media only screen and (min-width: 600px) {
+    header {
+      background-color: #d1d2d4;
+      height: 8vh;
+    }
+    .container-a {
+      margin-top: 3vh;
+      background-color: #ef4036;
+      width: 50%;
+      height: 39vh;
+    }
+  
+    .container-b {
+      background-color: #fcb040;
+      height: 39vh;
+      width: 50%;
+    }
+    .container-c {
+      background-color: #f5ee31;
+      height: 78vh;
+      width: 50%;
+      float: right;
+      margin-top: -78vh;
+    }
+    footer {
+      margin-top: 3vh;
+      background-color: #d1d2d4;
+      width: 100%;
+      height: 8vh;
+    }
   }
