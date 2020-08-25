@@ -58,3 +58,30 @@ footer {
     flex: none;
   }
 }
+
+@media only screen and (min-width: 960px) {
+  .container {
+    margin-top: 3vh;
+    min-height: 78vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .divA {
+    background-color: #8cc63f;
+    flex: 2;
+    order: 2;
+  }
+
+  .divB {
+    background-color: #0b9444;
+    flex: 1;
+    order: 1;
+  }
+
+  .divC {
+    background-color: #f5ee31;
+    flex: 1;
+    order: 3;
+  }
+}
